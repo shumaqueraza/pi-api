@@ -59,6 +59,23 @@ You get all the normal OpenAI-compatible stuff. **Pi does the thinking.** Done.
 
 ---
 
+## 💡 What can you actually build with this
+
+Pi is *not* your typical productivity AI. It's built for **conversation.** Empathetic, context-aware, emotionally intelligent conversation. That's its whole thing.
+
+So what does this unlock when you have an API?
+
+- 🤝 **Plug Pi into any OpenAI-compatible chat app** like [Open WebUI](https://github.com/open-webui/open-webui), [LibreChat](https://librechat.ai/), or [SillyTavern](https://sillytavern.app/) that would otherwise never support Pi
+- 🧠 **Build your own companion chatbot** on top of Pi's conversational personality without starting from scratch
+- 📔 **Personal journaling / reflection app** since Pi is genuinely good at asking the right follow-up questions and helping you think through stuff
+- 🪄 **Decision-making assistant** that actually pushes back, asks questions, and surfaces blind spots instead of just agreeing with you
+- 💭 **Creative brainstorming tool** for stories, ideas, scripts, or whatever you're making
+- 📚 **Study buddy app** that explains things conversationally instead of dumping bullet points at you
+
+And the best part? **Pi is completely free.** No paid tier, no rate limits, no credit card. Unlimited conversations. So your API calls are technically unlimited too.
+
+---
+
 ## 🔍 Why tho
 
 Because the *interesting* question isn't *"can I use Pi?"*
@@ -152,6 +169,7 @@ Request 2:
 | 🌐 | **CORS support** (works from browser too) |
 | 🔐 | **Optional local API key** (if you want to lock it down) |
 | 🖥️ | **Readable logging** (actually tells you what's happening) |
+| ♾️ | **Unlimited calls** (Pi is free with no rate limits) |
 
 ---
 
@@ -384,7 +402,7 @@ Path to your cookies JSON.
 
 How often to poke Cloudflare. **Default is fine.**
 
-### 📏 `Prompt cap`
+### 📏 Prompt cap
 
 **Hardcoded at 4000 chars.** This is a **Pi.ai limit**, not an arbitrary choice. Pi itself rejects anything longer, so there's no point changing it.
 
