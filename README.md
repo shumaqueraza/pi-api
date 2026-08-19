@@ -435,6 +435,21 @@ rich             (for the pretty terminal)
 
 ---
 
+## 🚧 Limitations
+
+This isn't a full API. It's a bridge to a website. So there are things you just can't do:
+
+- 🚫 **No system prompts** - Pi's personality is baked in by Inflection. You can't override it, change it, or steer it. Pi talks how Pi wants to talk.
+- 🎭 **No model switching** - there's only one model. It's Pi. That's it.
+- 📏 **4000 char prompt cap** - hard limit from Pi.ai itself, not the code.
+- 🍪 **Cookies expire** - you'll need to re-export `cookies.json` eventually when your session dies.
+- 👤 **Single account** - everything runs through one Pi session. No multi-user support.
+- 🌡️ **No temperature, top_p, or any generation params** - Pi doesn't expose any of that. The field is accepted but silently ignored.
+
+If you need any of those things, Pi probably isn't the right model for your use case anyway.
+
+---
+
 ## 💥 Things that can break
 
 This is the **"you get what you get" part** of reverse engineering.
